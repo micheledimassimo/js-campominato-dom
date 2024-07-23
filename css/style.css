@@ -1,0 +1,42 @@
+img {
+    max-width: 100%;
+}
+ .header-container {
+    max-height: 100px;
+ }
+ .header-container > .row > .col > img {
+    width: 80px;
+ }
+ main {
+    background-color: #7FFFD4;
+ }
+
+ footer {
+    height: 40px;
+ }
+ .my-container {
+   width: 1000px;
+   margin: 0 auto;
+ }
+#grid-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+ .grid-box {
+   width: 100px;
+   height: 100px;
+   background-color: lightblue;
+   border: 1px solid blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+ }
+
+ .change-color {
+   background-color: lightcoral;
+ }
+
+ .bomb-cell {
+   background-color: red;
+ }
