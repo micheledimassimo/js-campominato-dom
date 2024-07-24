@@ -40,3 +40,6 @@ img {
  .bomb-cell {
    background-color: red;
  }
+ .not-bomb {
+   background-color: lightgreen;
+ }

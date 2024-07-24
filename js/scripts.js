@@ -30,10 +30,14 @@ startButton.addEventListener('click', function () {
                 
                 newCell.classList.add('change-color');
                 
-            if (bombs.includes(i)) {
-                newCell.classList.add('bomb-cell');
                 
-            }  
+                if (bombs.includes(i)) {
+                    newCell.classList.add('bomb-cell');
+                    
+                } 
+                else {
+                    newCell.classList.add('not-bomb');
+                } 
          /*    
  */
             }
